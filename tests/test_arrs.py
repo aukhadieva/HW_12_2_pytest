@@ -7,5 +7,7 @@ def test_get():
 
 
 def test_my_slice():
+    assert my_slice([], 0, 0) == []
+    assert my_slice([1, 2, 3], None, 2) == [1, 2]
     assert my_slice([1, 2, 3, 4], 1, 3) == [2, 3]
     assert my_slice([1, 2, 3], 1) == [2, 3]
