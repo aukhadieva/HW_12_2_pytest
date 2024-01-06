@@ -6,6 +6,7 @@ from utils.dicts import get_val
 def collection1_fixture():
     return {"vcs": "mercurial"}
 
+
 @pytest.fixture
 def collection2_fixture():
     return {}
